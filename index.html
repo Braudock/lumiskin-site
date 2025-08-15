@@ -1,0 +1,1326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>LumiSkin: Brilhe do Seu Jeito com Nosso Skincare Premium</title>
+    <meta name="description" content="Descubra a linha LumiSkin e conquiste uma pele radiante com resultados visíveis desde a primeira aplicação. Fórmulas premium, compra segura e garantia de 30 dias.">
+    <meta name="keywords" content="skincare, beleza, produtos de beleza, sérum, creme firmador, autocuidado, pele radiante">
+    <meta name="author" content="LumiSkin">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:title" content="LumiSkin: Brilhe do Seu Jeito com Nosso Skincare Premium">
+    <meta property="og:description" content="Descubra a linha LumiSkin e conquiste uma pele radiante com resultados visíveis desde a primeira aplicação.">
+    <meta property="og:image" content="https://placehold.co/1200x630/FF4D8D/FFF5F8?text=LumiSkin">
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://example.com/">
+    <meta property="twitter:title" content="LumiSkin: Brilhe do Seu Jeito com Nosso Skincare Premium">
+    <meta property="twitter:description" content="Descubra a linha LumiSkin e conquiste uma pele radiante com resultados visíveis desde a primeira aplicação.">
+    <meta property="twitter:image" content="https://placehold.co/1200x630/FF4D8D/FFF5F8?text=LumiSkin">
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- JSON-LD Schema.org for Products -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Product",
+          "name": "Sérum Luminosidade LumiSkin",
+          "image": "https://placehold.co/400x400/FADADD/333333?text=Sérum+Luminosidade",
+          "description": "Um boost de vitalidade para uma pele visivelmente mais iluminada e uniforme.",
+          "brand": {
+            "@type": "Brand",
+            "name": "LumiSkin"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://example.com/#produtos",
+            "priceCurrency": "BRL",
+            "price": "189.90",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "1258"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "Creme Firmador LumiSkin",
+          "image": "https://placehold.co/400x400/FCEFF3/333333?text=Creme+Firmador",
+          "description": "Efeito lifting imediato e hidratação profunda para uma pele mais firme e jovem.",
+          "brand": {
+            "@type": "Brand",
+            "name": "LumiSkin"
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://example.com/#produtos",
+            "priceCurrency": "BRL",
+            "price": "219.90",
+            "availability": "https://schema.org/InStock"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "reviewCount": "987"
+          }
+        }
+      ]
+    }
+    </script>
+    <style>
+        /* ------------------- */
+        /* RESET & GLOBAL      */
+        /* ------------------- */
+        :root {
+            --rosa: #FF4D8D;
+            --pessego: #FFB3C7;
+            --amarelo: #FFD166;
+            --off-white: #FFF5F8;
+            --preto: #111111;
+            --branco: #FFFFFF;
+            --cinza: #4A4A4A;
+            --font-title: 'Playfair Display', serif;
+            --font-body: 'Poppins', sans-serif;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        body {
+            font-family: var(--font-body);
+            background-color: var(--off-white);
+            color: var(--preto);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        h1, h2, h3, h4 {
+            font-family: var(--font-title);
+            color: var(--preto);
+            line-height: 1.2;
+        }
+        h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+        h2 { font-size: clamp(2rem, 5vw, 3rem); }
+        h3 { font-size: clamp(1.25rem, 4vw, 1.75rem); }
+        p {
+            margin-bottom: 1rem;
+            color: var(--cinza);
+        }
+        a {
+            color: var(--rosa);
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        a:hover {
+            opacity: 0.8;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            padding: clamp(3rem, 8vw, 6rem) 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .section-subtitle {
+            text-align: center;
+            max-width: 600px;
+            margin: -2.5rem auto 3rem;
+            color: var(--cinza);
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: 2px solid transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            letter-spacing: 0.5px;
+        }
+        .btn-primary {
+            background-color: var(--rosa);
+            color: var(--branco);
+            box-shadow: 0 4px 15px rgba(255, 77, 141, 0.4);
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(255, 77, 141, 0.6);
+            opacity: 1;
+        }
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--branco);
+            border-color: var(--branco);
+        }
+        .btn-secondary:hover {
+            background-color: var(--branco);
+            color: var(--rosa);
+            opacity: 1;
+        }
+        
+        /* Animação de entrada */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .fade-in.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        /* ------------------- */
+        /* TOP BAR             */
+        /* ------------------- */
+        .top-bar {
+            background-color: var(--preto);
+            color: var(--branco);
+            text-align: center;
+            padding: 10px 0;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .top-bar strong {
+            color: var(--amarelo);
+        }
+        #countdown {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        /* ------------------- */
+        /* HEADER              */
+        /* ------------------- */
+        .main-header {
+            background-color: rgba(255, 245, 248, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: box-shadow 0.3s ease;
+        }
+        .main-header.scrolled {
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-family: var(--font-title);
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--rosa);
+        }
+        .main-nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+        .main-nav a {
+            color: var(--preto);
+            font-weight: 500;
+            position: relative;
+        }
+        .main-nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--rosa);
+            transition: width 0.3s ease;
+        }
+        .main-nav a:hover::after {
+            width: 100%;
+        }
+        .header-cta {
+            display: block;
+        }
+        .menu-toggle {
+            display: none;
+            cursor: pointer;
+            background: none;
+            border: none;
+        }
+        /* ------------------- */
+        /* HERO SECTION        */
+        /* ------------------- */
+        .hero {
+            position: relative;
+            height: 95vh;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: var(--branco);
+            overflow: hidden;
+            background-color: #EAB8C9; /* Fallback caso o vídeo não carregue */
+        }
+        /* Container do vídeo em background (agora com YouTube) */
+        .hero-video-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -2;
+        }
+        .hero-video-bg iframe {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            pointer-events: none; /* evita clique no vídeo */
+        }
+        /* Cobrir a tela respeitando 16:9 em qualquer proporção de viewport */
+        @media (min-aspect-ratio: 16/9) {
+            .hero-video-bg iframe {
+                width: 100vw;
+                height: 56.25vw; /* 9/16 de 100vw */
+            }
+        }
+        @media (max-aspect-ratio: 16/9) {
+            .hero-video-bg iframe {
+                width: 177.78vh; /* 16/9 de 100vh */
+                height: 100vh;
+            }
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.5) 100%);
+            z-index: -1;
+        }
+        .hero-content {
+            max-width: 800px;
+            animation: fadeInHero 1s ease-out 0.5s forwards;
+            opacity: 0;
+        }
+        @keyframes fadeInHero {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hero-content h1 {
+            color: var(--branco);
+            margin-bottom: 1rem;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+        .hero-content p {
+            font-size: 1.25rem;
+            color: var(--off-white);
+            margin-bottom: 2rem;
+            text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+        }
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        /* ------------------- */
+        /* TRUST SEALS         */
+        /* ------------------- */
+        .trust-seals {
+            background-color: var(--branco);
+            padding: 2rem 0;
+        }
+        .seals-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .seal-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            color: var(--cinza);
+        }
+        .seal-item svg {
+            color: var(--rosa);
+        }
+        /* ------------------- */
+        /* PRODUCTS            */
+        /* ------------------- */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        .product-card {
+            background-color: var(--branco);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+        }
+        .product-image {
+            position: relative;
+        }
+        .product-image img {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+        .product-content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-content h3 {
+            margin-bottom: 10px;
+        }
+        .product-rating {
+            color: var(--amarelo);
+            margin-bottom: 10px;
+        }
+        .product-benefits {
+            list-style: none;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+            color: var(--cinza);
+            flex-grow: 1;
+        }
+        .product-benefits li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 5px;
+        }
+        .product-benefits li::before {
+            content: '✓';
+            color: var(--rosa);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        .product-price {
+            margin-bottom: 15px;
+        }
+        .product-price .current-price {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--preto);
+        }
+        .product-price .installments {
+            font-size: 0.9rem;
+            color: var(--cinza);
+        }
+        .product-card .btn {
+            width: 100%;
+            text-align: center;
+        }
+        
+        /* ------------------- */
+        /* BENEFITS            */
+        /* ------------------- */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+        .benefit-item {
+            padding: 20px;
+        }
+        .benefit-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 15px;
+            background-color: #FFDDE8;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--rosa);
+        }
+        .benefit-item h3 {
+            margin-bottom: 10px;
+        }
+        /* ------------------- */
+        /* BEFORE & AFTER      */
+        /* ------------------- */
+        #antes-depois {
+            background-color: var(--branco);
+        }
+        .comparison-slider {
+            position: relative;
+            width: 100%;
+            max-width: 700px;
+            margin: 0 auto;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .comparison-image {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 16 / 10;
+        }
+        .comparison-image img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .image-before {
+            clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);
+        }
+        .slider-handle {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background-color: var(--branco);
+            cursor: ew-resize;
+        }
+        .slider-handle::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--branco);
+            border-radius: 50%;
+            background-color: var(--rosa);
+        }
+        .image-label {
+            position: absolute;
+            top: 15px;
+            padding: 5px 15px;
+            background-color: rgba(0,0,0,0.5);
+            color: var(--branco);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .label-before { left: 15px; }
+        .label-after { right: 15px; }
+        /* ------------------- */
+        /* TESTIMONIALS        */
+        /* ------------------- */
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .testimonial-card {
+            background-color: var(--branco);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        .testimonial-header img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .testimonial-author h4 {
+            margin: 0;
+        }
+        .testimonial-author span {
+            font-size: 0.9rem;
+            color: var(--cinza);
+        }
+        .testimonial-card .product-rating {
+            margin-bottom: 10px;
+        }
+        /* ------------------- */
+        /* LIMITED OFFER       */
+        /* ------------------- */
+        #oferta {
+            background: linear-gradient(45deg, var(--rosa), var(--pessego));
+            color: var(--branco);
+            text-align: center;
+        }
+        #oferta h2, #oferta p {
+            color: var(--branco);
+        }
+        #oferta h2 {
+            text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .offer-badges {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        .micro-badge {
+            background-color: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .offer-cta {
+            margin-top: 2rem;
+        }
+        .offer-cta .btn {
+            background-color: var(--amarelo);
+            color: var(--preto);
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .offer-cta .btn:hover {
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        .offer-disclaimer {
+            font-size: 0.8rem;
+            margin-top: 1rem;
+            opacity: 0.8;
+        }
+        /* ------------------- */
+        /* FAQ                 */
+        /* ------------------- */
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .faq-item {
+            background-color: var(--branco);
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #eee;
+        }
+        .faq-item summary {
+            padding: 20px;
+            font-weight: 600;
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .faq-item summary::-webkit-details-marker {
+            display: none;
+        }
+        .faq-item summary::after {
+            content: '+';
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        .faq-item[open] summary::after {
+            transform: rotate(45deg);
+        }
+        .faq-content {
+            padding: 0 20px 20px;
+            border-top: 1px solid #eee;
+        }
+        /* ------------------- */
+        /* NEWSLETTER          */
+        /* ------------------- */
+        #newsletter {
+            background-color: var(--pessego);
+        }
+        .newsletter-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+            margin-top: 2rem;
+        }
+        .newsletter-form input {
+            flex-grow: 1;
+            padding: 15px;
+            border-radius: 50px;
+            border: 1px solid var(--branco);
+            font-family: var(--font-body);
+            font-size: 1rem;
+        }
+        .newsletter-form input:focus {
+            outline: 2px solid var(--rosa);
+        }
+        .form-feedback {
+            text-align: left;
+            margin-top: 5px;
+            font-size: 0.8rem;
+            height: 1.2rem;
+        }
+        .form-feedback.success { color: #006400; }
+        .form-feedback.error { color: #D8000C; }
+        .form-disclaimer {
+            font-size: 0.8rem;
+            margin-top: 10px;
+        }
+        /* ------------------- */
+        /* FOOTER              */
+        /* ------------------- */
+        footer {
+            background-color: var(--preto);
+            color: var(--off-white);
+            padding: 4rem 0 2rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-bottom: 3rem;
+        }
+        .footer-col h4 {
+            color: var(--branco);
+            margin-bottom: 1rem;
+            font-family: var(--font-body);
+            font-weight: 600;
+        }
+        .footer-col ul {
+            list-style: none;
+        }
+        .footer-col li {
+            margin-bottom: 10px;
+        }
+        .footer-col a {
+            color: #ccc;
+        }
+        .footer-col a:hover {
+            color: var(--branco);
+            opacity: 1;
+        }
+        .social-icons {
+            display: flex;
+            gap: 15px;
+        }
+        .social-icons a {
+            color: var(--branco);
+            font-size: 1.5rem;
+        }
+        .footer-bottom {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #aaa;
+        }
+        /* ------------------- */
+        /* RESPONSIVE          */
+        /* ------------------- */
+        @media (max-width: 992px) {
+            .main-nav, .header-cta {
+                display: none;
+            }
+            .menu-toggle {
+                display: block;
+            }
+            .main-header.nav-open .main-nav {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--off-white);
+                padding: 20px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+            }
+            .main-header.nav-open .main-nav ul {
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+            .main-header.nav-open .main-nav li {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            h2 { font-size: 1.8rem; }
+            
+            /* Carrossel de produtos para mobile */
+            .products-grid {
+                display: flex;
+                overflow-x: auto;
+                scroll-snap-type: x mandatory;
+                -webkit-overflow-scrolling: touch;
+                padding-bottom: 20px; /* Espaço para a barra de rolagem */
+                gap: 15px;
+            }
+            .products-grid::-webkit-scrollbar {
+                height: 8px;
+            }
+            .products-grid::-webkit-scrollbar-thumb {
+                background: var(--pessego);
+                border-radius: 10px;
+            }
+            .product-card {
+                flex: 0 0 80%;
+                scroll-snap-align: start;
+            }
+            
+            .newsletter-form {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- ======================= -->
+    <!--      TOP BAR            -->
+    <!-- ======================= -->
+    <div class="top-bar">
+        <div class="container">
+            ⚡️ OFERTA RELÂMPAGO TERMINA EM <div id="countdown"></div> | Use o cupom: <strong>BRILHE10</strong>
+        </div>
+    </div>
+    <!-- ======================= -->
+    <!--      HEADER             -->
+    <!-- ======================= -->
+    <header class="main-header" id="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo">LumiSkin</a>
+            <nav class="main-nav" id="main-nav">
+                <ul>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#antes-depois">Resultados</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </nav>
+            <a href="#oferta" class="btn btn-primary header-cta">Comprar Agora</a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- ======================= -->
+        <!--      HERO SECTION       -->
+        <!-- ======================= -->
+        <section class="hero" id="inicio">
+            <!-- YouTube como background -->
+            <div class="hero-video-bg">
+                <iframe
+                    src="https://www.youtube.com/embed/V3tEa3hFgvw?autoplay=1&mute=1&loop=1&playlist=V3tEa3hFgvw&controls=0&showinfo=0&modestbranding=1&rel=0"
+                    title="Background Video"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1>Brilhe do seu jeito ✨</h1>
+                <p>Skincare e beleza com resultados visíveis desde a primeira aplicação.</p>
+                <div class="hero-buttons">
+                    <a href="#oferta" class="btn btn-primary">Ver Ofertas</a>
+                    <a href="#produtos" class="btn btn-secondary">Conhecer Produtos</a>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= -->
+        <!--      TRUST SEALS        -->
+        <!-- ======================= -->
+        <div class="trust-seals">
+            <div class="container seals-container">
+                <div class="seal-item fade-in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                    <span>Compra 100% Segura</span>
+                </div>
+                <div class="seal-item fade-in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                    <span>Garantia de 30 Dias</span>
+                </div>
+                <div class="seal-item fade-in">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                    <span>Parcele em até 12x</span>
+                </div>
+                <div class="seal-item fade-in">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                    <span>Frete Rápido</span>
+                </div>
+            </div>
+        </div>
+        <!-- ======================= -->
+        <!--      PRODUCTS           -->
+        <!-- ======================= -->
+        <section id="produtos">
+            <div class="container">
+                <h2 class="section-title fade-in">Nossa Linha LumiSkin</h2>
+                <p class="section-subtitle fade-in">Fórmulas potentes para uma pele que irradia saúde e confiança. Escolha o seu favorito ou combine para um ritual completo.</p>
+                <div class="products-grid">
+                    <!-- Produto 1 -->
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/FADADD/333333?text=Sérum+Luminosidade" alt="Sérum Luminosidade LumiSkin" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Sérum Luminosidade</h3>
+                            <div class="product-rating">★★★★★ <small>(1.258)</small></div>
+                            <ul class="product-benefits">
+                                <li>Uniformiza o tom da pele</li>
+                                <li>Reduz manchas e marcas</li>
+                                <li>Proporciona brilho natural</li>
+                            </ul>
+                            <div class="product-price">
+                                <span class="current-price">R$ 189,90</span><br>
+                                <span class="installments">ou 12x de R$ 18,97</span>
+                            </div>
+                            <a href="#oferta" class="btn btn-primary">Eu Quero!</a>
+                        </div>
+                    </div>
+                    <!-- Produto 2 -->
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/FCEFF3/333333?text=Creme+Firmador" alt="Creme Firmador LumiSkin" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Creme Firmador</h3>
+                            <div class="product-rating">★★★★★ <small>(987)</small></div>
+                            <ul class="product-benefits">
+                                <li>Efeito lifting imediato</li>
+                                <li>Aumenta a elasticidade</li>
+                                <li>Hidratação profunda 24h</li>
+                            </ul>
+                            <div class="product-price">
+                                <span class="current-price">R$ 219,90</span><br>
+                                <span class="installments">ou 12x de R$ 21,96</span>
+                            </div>
+                            <a href="#oferta" class="btn btn-primary">Comprar Agora</a>
+                        </div>
+                    </div>
+                    <!-- Produto 3 -->
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/FADADD/333333?text=Bruma+Hidratante" alt="Bruma Hidratante LumiSkin" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Bruma Hidratante</h3>
+                            <div class="product-rating">★★★★★ <small>(854)</small></div>
+                            <ul class="product-benefits">
+                                <li>Refresca e acalma a pele</li>
+                                <li>Fixa a maquiagem</li>
+                                <li>Pode ser usada a qualquer hora</li>
+                            </ul>
+                            <div class="product-price">
+                                <span class="current-price">R$ 99,90</span><br>
+                                <span class="installments">ou 10x de R$ 11,50</span>
+                            </div>
+                            <a href="#oferta" class="btn btn-primary">Adicionar ao Carrinho</a>
+                        </div>
+                    </div>
+                    <!-- Produto 4 -->
+                    <div class="product-card fade-in">
+                        <div class="product-image">
+                            <img src="https://placehold.co/400x400/FADADD/333333?text=Máscara+Detox" alt="Máscara Detox LumiSkin" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Máscara Detox</h3>
+                            <div class="product-rating">★★★★★ <small>(712)</small></div>
+                            <ul class="product-benefits">
+                                <li>Limpeza profunda dos poros</li>
+                                <li>Controla a oleosidade</li>
+                                <li>Pele renovada em 15 min</li>
+                            </ul>
+                            <div class="product-price">
+                                <span class="current-price">R$ 149,90</span><br>
+                                <span class="installments">ou 12x de R$ 14,97</span>
+                            </div>
+                            <a href="#oferta" class="btn btn-primary">Garantir a Minha</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= -->
+        <!--      BENEFITS           -->
+        <!-- ======================= -->
+        <section id="beneficios">
+            <div class="container">
+                <h2 class="section-title fade-in">Um Ritual de Amor Próprio</h2>
+                <p class="section-subtitle fade-in">Mais que skincare, uma experiência de autocuidado que transforma sua pele e sua rotina.</p>
+                <div class="benefits-grid">
+                    <div class="benefit-item fade-in">
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                        </div>
+                        <h3>Pele Radiante</h3>
+                        <p>Fórmulas que realçam a luminosidade natural da sua pele, trazendo um brilho saudável de dentro para fora.</p>
+                    </div>
+                    <div class="benefit-item fade-in">
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path></svg>
+                        </div>
+                        <h3>Ingredientes Premium</h3>
+                        <p>Selecionamos ativos de alta performance, veganos e cruelty-free, para o melhor cuidado que sua pele merece.</p>
+                    </div>
+                    <div class="benefit-item fade-in">
+                        <div class="benefit-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                        </div>
+                        <h3>Resultados Visíveis</h3>
+                        <p>Nossos produtos são desenvolvidos para entregar resultados que você pode ver e sentir desde as primeiras semanas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= -->
+        <!--      BEFORE & AFTER     -->
+        <!-- ======================= -->
+        <section id="antes-depois">
+            <div class="container">
+                <h2 class="section-title fade-in">Confiança que se Vê na Pele</h2>
+                <p class="section-subtitle fade-in">Veja a transformação real de clientes que incluíram LumiSkin em sua rotina. Resultados podem variar.</p>
+                <div class="comparison-slider fade-in" id="comparison-slider">
+                    <div class="comparison-image">
+                        <img src="https://placehold.co/700x438/E0E0E0/333333?text=Antes" alt="Pele antes de usar LumiSkin" class="image-after">
+                        <img src="https://placehold.co/700x438/FADADD/333333?text=Depois" alt="Pele depois de usar LumiSkin" class="image-before">
+                        <div class="image-label label-before">Depois</div>
+                        <div class="image-label label-after">Antes</div>
+                    </div>
+                    <div class="slider-handle" id="slider-handle"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ======================= -->
+        <!--      TESTIMONIALS       -->
+        <!-- ======================= -->
+        <section id="depoimentos">
+            <div class="container">
+                <h2 class="section-title fade-in">O que Nossas Clientes Dizem</h2>
+                <p class="section-subtitle fade-in">+2.500 avaliações 5 estrelas. A sua pode ser a próxima!</p>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-header">
+                            <img src="https://placehold.co/100x100/FFD166/111111?text=J" alt="Foto de Juliana P.">
+                            <div class="testimonial-author">
+                                <h4>Juliana P.</h4>
+                                <span>São Paulo, SP</span>
+                            </div>
+                        </div>
+                        <div class="product-rating">★★★★★</div>
+                        <p>"O Sérum Luminosidade mudou minha pele! As manchinhas sumiram e agora saio de casa muito mais confiante. Virou meu produto da vida."</p>
+                    </div>
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-header">
+                            <img src="https://placehold.co/100x100/FF4D8D/FFFFFF?text=M" alt="Foto de Mariana C.">
+                            <div class="testimonial-author">
+                                <h4>Mariana C.</h4>
+                                <span>Belo Horizonte, MG</span>
+                            </div>
+                        </div>
+                        <div class="product-rating">★★★★★</div>
+                        <p>"Estava com a pele flácida e sem vida. O Creme Firmador deu um up incrível! Sinto meu rosto mais firme e hidratado o dia todo. Recomendo demais!"</p>
+                    </div>
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-header">
+                            <img src="https://placehold.co/100x100/FFB3C7/111111?text=G" alt="Foto de Gabriela S.">
+                            <div class="testimonial-author">
+                                <h4>Gabriela S.</h4>
+                                <span>Curitiba, PR</span>
+                            </div>
+                        </div>
+                        <div class="product-rating">★★★★★</div>
+                        <p>"A Máscara Detox é perfeita para um spa day em casa. Deixa a pele super limpa, macia e com os poros menos visíveis. Amei o resultado imediato."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= -->
+        <!--      LIMITED OFFER      -->
+        <!-- ======================= -->
+        <section id="oferta">
+            <div class="container fade-in">
+                <div class="offer-badges">
+                    <span class="micro-badge">🔥 Mais Vendido</span>
+                    <span class="micro-badge">✨ Favorito das Clientes</span>
+                    <span class="micro-badge">⏳ Últimas Unidades</span>
+                </div>
+                <h2>Garanta Seu Kit LumiSkin com Desconto Exclusivo!</h2>
+                <p>A promoção termina hoje! Leve o Kit Completo e transforme sua pele com <strong>25% OFF + Frete Grátis</strong>.</p>
+                <div class="offer-cta">
+                    <a href="#" class="btn">Garantir Meu Kit com Desconto</a>
+                    <p class="offer-disclaimer">Satisfação em 30 dias ou seu dinheiro de volta.</p>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= -->
+        <!--      FAQ                -->
+        <!-- ======================= -->
+        <section id="faq">
+            <div class="container">
+                <h2 class="section-title fade-in">Dúvidas Frequentes</h2>
+                <div class="faq-container fade-in">
+                    <details class="faq-item">
+                        <summary>Qual o prazo de entrega?</summary>
+                        <div class="faq-content">
+                            <p>O prazo de entrega varia de 3 a 7 dias úteis, dependendo da sua região. Você receberá o código de rastreio por e-mail assim que o pedido for despachado.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Posso trocar ou devolver o produto?</summary>
+                        <div class="faq-content">
+                            <p>Sim! Oferecemos uma garantia de satisfação de 30 dias. Se você não amar os resultados, pode solicitar a devolução e receber seu dinheiro de volta. Consulte nossa Política de Trocas e Devoluções para mais detalhes.</p>
+                        </div>
+                    </details>
+                    <details class="faq-item">
+                        <summary>Os produtos são indicados para pele sensível?</summary>
+                        <div class="faq-content">
+                            <p>Nossas fórmulas são dermatologicamente testadas e desenvolvidas para serem gentis com a pele. No entanto, recomendamos sempre fazer um teste de toque em uma pequena área antes do uso completo, especialmente se você tem histórico de sensibilidade.</p>
+                        </div>
+                    </details>
+                     <details class="faq-item">
+                        <summary>Como devo usar os produtos?</summary>
+                        <div class="faq-content">
+                            <p>Cada produto vem com instruções detalhadas no rótulo. A ordem básica recomendada é: limpeza, sérum, creme hidratante. A máscara pode ser usada 1-2x por semana e a bruma a qualquer momento do dia.</p>
+                        </div>
+                    </details>
+                     <details class="faq-item">
+                        <summary>Em quanto tempo vejo os resultados?</summary>
+                        <div class="faq-content">
+                            <p>Muitas clientes relatam uma melhora na hidratação e no viço da pele desde a primeira aplicação. Para resultados mais significativos, como redução de manchas e melhora da firmeza, recomendamos o uso contínuo por pelo menos 4 semanas.</p>
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+        <!-- ======================= -->
+        <!--      NEWSLETTER         -->
+        <!-- ======================= -->
+        <section id="newsletter">
+            <div class="container newsletter-container fade-in">
+                <h2>Junte-se ao nosso Clube VIP</h2>
+                <p>Receba dicas exclusivas, lançamentos em primeira mão e ganhe <strong>10% de desconto</strong> na sua primeira compra!</p>
+                <form class="newsletter-form" id="newsletter-form" novalidate>
+                    <div style="flex-grow: 1;">
+                        <input type="email" id="email-input" placeholder="Seu melhor e-mail" required>
+                        <p class="form-feedback" id="form-feedback"></p>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Quero meu desconto</button>
+                </form>
+                <p class="form-disclaimer">🔒 Seus dados estão protegidos. Não enviamos spam.</p>
+            </div>
+        </section>
+    </main>
+    <!-- ======================= -->
+    <!--      FOOTER             -->
+    <!-- ======================= -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#" class="logo" style="color: var(--branco);">LumiSkin</a>
+                    <p style="color: #ccc; margin-top: 1rem; font-size: 0.9rem;">Beleza que vem de dentro, cuidado que se vê por fora.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Institucional</h4>
+                    <ul>
+                        <li><a href="#">Sobre Nós</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Trocas e Devoluções</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Atendimento</h4>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                        <li><a href="#">WhatsApp: (11) 98765-4321</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 LumiSkin. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // ------------------------------------
+        // --- SCRIPT DO CONTADOR REGRESSIVO ---
+        // ------------------------------------
+        function startCountdown() {
+            const countdownElement = document.getElementById('countdown');
+            if (!countdownElement) return;
+            // Define a duração do contador (ex: 2 horas)
+            let duration = 2 * 60 * 60; // 2 horas em segundos
+            const timer = setInterval(function() {
+                if (duration <= 0) {
+                    clearInterval(timer);
+                    countdownElement.textContent = "Oferta Encerrada!";
+                    return;
+                }
+                duration--;
+                const hours = Math.floor(duration / 3600);
+                const minutes = Math.floor((duration % 3600) / 60);
+                const seconds = duration % 60;
+                const format = (num) => num.toString().padStart(2, '0');
+                countdownElement.textContent = `${format(hours)}:${format(minutes)}:${format(seconds)}`;
+            }, 1000);
+        }
+        startCountdown();
+        // ------------------------------------
+        // --- HEADER STICKY E MENU MOBILE ---
+        // ------------------------------------
+        const header = document.getElementById('main-header');
+        const menuToggle = document.getElementById('menu-toggle');
+        const mainNav = document.getElementById('main-nav');
+        // Sombra no header ao rolar a página
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        // Funcionalidade do menu mobile
+        menuToggle.addEventListener('click', () => {
+            header.classList.toggle('nav-open');
+        });
+        // Fechar menu mobile ao clicar em um link
+        mainNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                header.classList.remove('nav-open');
+            });
+        });
+        // ------------------------------------
+        // --- SLIDER ANTES & DEPOIS ---
+        // ------------------------------------
+        const sliderContainer = document.getElementById('comparison-slider');
+        if(sliderContainer) {
+            const handle = document.getElementById('slider-handle');
+            const imageBefore = sliderContainer.querySelector('.image-before');
+            let isDragging = false;
+            const moveSlider = (x) => {
+                const rect = sliderContainer.getBoundingClientRect();
+                let position = (x - rect.left) / rect.width * 100;
+                position = Math.max(0, Math.min(100, position));
+                handle.style.left = `${position}%`;
+                imageBefore.style.clipPath = `polygon(0 0, ${position}% 0, ${position}% 100%, 0 100%)`;
+            };
+            handle.addEventListener('mousedown', () => isDragging = true);
+            handle.addEventListener('touchstart', () => isDragging = true);
+            window.addEventListener('mouseup', () => isDragging = false);
+            window.addEventListener('touchend', () => isDragging = false);
+            window.addEventListener('mousemove', (e) => {
+                if (isDragging) moveSlider(e.clientX);
+            });
+            window.addEventListener('touchmove', (e) => {
+                if (isDragging) moveSlider(e.touches[0].clientX);
+            });
+        }
+        // ------------------------------------
+        // --- ANIMAÇÃO DE ENTRADA (FADE-IN) ---
+        // ------------------------------------
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1 // Ativa quando 10% do elemento está visível
+        });
+        document.querySelectorAll('.fade-in').forEach(element => {
+            observer.observe(element);
+        });
+        
+        // ------------------------------------
+        // --- VALIDAÇÃO DO FORMULÁRIO NEWSLETTER ---
+        // ------------------------------------
+        const newsletterForm = document.getElementById('newsletter-form');
+        const emailInput = document.getElementById('email-input');
+        const feedbackElement = document.getElementById('form-feedback');
+        newsletterForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = emailInput.value;
+            
+            feedbackElement.textContent = '';
+            feedbackElement.className = 'form-feedback';
+            if (!validateEmail(email)) {
+                feedbackElement.textContent = 'Por favor, insira um e-mail válido.';
+                feedbackElement.classList.add('error');
+                return;
+            }
+            // Simulação de envio bem-sucedido
+            feedbackElement.textContent = 'Obrigado! Seu cupom está a caminho.';
+            feedbackElement.classList.add('success');
+            emailInput.value = '';
+        });
+        function validateEmail(email) {
+            const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+    });
+    </script>
+</body>
+</html>
